@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>SMK NEGERI 1 SIMPANG TERITIP;</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <nav CLASS="Menu">
+      <label>SMK NEGERI 1 SIMPANG TERITIP</label>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Visi Misi</a></li>
+        <li>
+          <a href="#">Struktur Organisasi</a>
+          <ul class="dropdown">
+            <li><a href="#">Pendidik</a></li>
+            <li><a href="#">Tenaga Kependidikan</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Informasi</a></li>
+        <li><a href="#">Galery</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+body {
+  background-image: url("background.jpg");
+  background-size: 100%;
+  margin: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  font-family: Arial;
+  font-weight: bold;
+  height: 70px;
+  width: 100%;
+  background: #76b5c5;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+label {
+  font-family: "Trebuchet MS";
+  font-size: 20pt;
+  color: #063970;
+  margin: 10px;
+  padding: 5px;
+  float: left;
+}
+
+.menu ul {
+  margin: 0px;
+  padding: 15px;
+  background: none;
+  display: block;
+  float: left;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #063970;
+}
+
+.menu ul li a:hover {
+  display: block;
+  color: aquamarine;
+  background: #11637c;
+  box-shadow: inset0px 0px 5px hsl(204, 12%, 17%);
+}
+
+.menu ul li .dropdown {
+  display: none;
+}
+
+.menu ul li:hover .dropdown {
+  display: block;
+  background: #11637c;
+  position: absolute;
+  padding: 10px;
+}
+
+.menu ul li:hover .dropdown {
+  display: block;
+}
